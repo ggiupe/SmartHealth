@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+app:layout_behavior="@string/appbar_scrolling_view_behavior"
+tools:context="com.example.giuseppe.smarthealth.NotificheLette"
+android:id="@+id/contenuto_notif_lette">
+
+<ListView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/list_old"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/stato_connessione_mqtt_old"
+    android:layout_marginTop="15dp"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#37731b"
+    android:textSize="15dp"
+    android:text=""
+    android:id="@+id/nome_completo_old"
+    android:textStyle="bold|italic"
+    android:layout_marginTop="16dp"
+    android:layout_marginLeft="4dp"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#275113"
+    android:textSize="15dp"
+    android:text=""
+    android:id="@+id/saluto_old"
+    android:layout_alignTop="@+id/nome_completo_old"
+    android:layout_toLeftOf="@+id/nome_completo_old"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#275113"
+    android:textSize="15dp"
+    android:text=""
+    android:id="@+id/esclamativo_old"
+    android:layout_toRightOf="@+id/nome_completo_old"
+    android:layout_marginTop="16dp"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#000000"
+    android:textSize="9dp"
+    android:text=""
+    android:id="@+id/id_title_old"
+    android:layout_alignParentTop="true"
+    android:layout_toLeftOf="@+id/id_value_old"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#000000"
+    android:textSize="9dp"
+    android:text=""
+    android:id="@+id/id_value_old"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:id="@+id/stato_connessione_http_old"
+    android:layout_below="@+id/nome_completo_old"
+    android:layout_marginTop="6dp"
+    android:layout_centerHorizontal="true" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:id="@+id/stato_connessione_mqtt_old"
+    android:layout_below="@+id/stato_connessione_http_old"
+    android:layout_marginTop="3dp"
+    android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

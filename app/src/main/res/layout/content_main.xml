@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.giuseppe.smarthealth.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:id="@+id/contenuto_principale">
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/stato_connessione_mqtt"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#37731b"
+        android:textSize="15dp"
+        android:text=""
+        android:id="@+id/nome_completo"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="4dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#275113"
+        android:textSize="15dp"
+        android:text=""
+        android:id="@+id/saluto"
+        android:layout_alignTop="@+id/nome_completo"
+        android:layout_toLeftOf="@+id/nome_completo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#275113"
+        android:textSize="15dp"
+        android:text=""
+        android:id="@+id/esclamativo"
+        android:layout_toRightOf="@+id/nome_completo"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="9dp"
+        android:text=""
+        android:id="@+id/id_title"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/id_value"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="9dp"
+        android:text=""
+        android:id="@+id/id_value"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/stato_connessione_http"
+        android:layout_below="@+id/nome_completo"
+        android:layout_marginTop="6dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/stato_connessione_mqtt"
+        android:layout_below="@+id/stato_connessione_http"
+        android:layout_marginTop="3dp"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

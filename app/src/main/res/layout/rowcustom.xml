@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Definig a container for you List Item-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="28dip"
+    android:orientation="vertical">
+
+    <!-- Defining where should text be placed. You set you text color here-->
+    <TextView
+        android:id="@+id/list_titolo"
+        android:textColor="#bd470b"
+        android:textSize="15dp"
+        android:text="Messaggio da: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="8dip"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/list_nome"
+        android:textColor="#2f4558"
+        android:textSize="15dp"
+        android:text="Giuseppe Petralia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_alignTop="@+id/list_titolo"
+        android:layout_toRightOf="@+id/list_titolo"
+        android:textStyle="bold|italic"/>
+    <TextView
+        android:id="@+id/list_data_title"
+        android:textColor="#8b6626"
+        android:text="Data e ora: "
+        android:layout_below="@+id/list_titolo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/list_titolo"
+        android:layout_marginTop="4dip"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/list_data"
+        android:textColor="#43555c"
+        android:gravity="center"
+        android:text="27/03/2016 23:58:55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_toRightOf="@+id/list_data_title"
+        android:layout_alignTop="@+id/list_data_title" />
+    <TextView
+        android:id="@+id/list_content"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:text="sample"
+        android:layout_marginTop="10dip"
+        android:layout_below="@+id/list_data_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        />
+</RelativeLayout>

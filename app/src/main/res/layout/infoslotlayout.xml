@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Definig a container for you List Item-->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:gravity="center_vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_margin="28dip"
+android:orientation="vertical">
+
+<!-- Defining where should text be placed. You set you text color here-->
+<TextView
+    android:id="@+id/info_titolo"
+    android:textColor="#831003"
+    android:textSize="18dp"
+    android:text="Messaggio da: "
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="25dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="12dp"
+    android:textStyle="bold"/>
+<TextView
+    android:id="@+id/info_descrizione"
+    android:textColor="#000000"
+    android:textSize="15dp"
+    android:text="Giuseppe Petralia"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:textAlignment="center"
+    android:layout_below="@+id/info_titolo"/>
+</RelativeLayout>

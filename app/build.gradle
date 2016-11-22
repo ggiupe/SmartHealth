@@ -1,0 +1,54 @@
+apply plugin: 'com.android.application'
+
+android {
+    //compileSdkVersion 23
+    //buildToolsVersion "23.0.3"
+    compileSdkVersion 24
+    buildToolsVersion "24.0.1"
+
+    defaultConfig {
+        applicationId "com.example.giuseppe.smarthealth"
+        minSdkVersion 17
+        //targetSdkVersion 23
+        targetSdkVersion 24
+        versionCode 20
+        versionName "3.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    //compile 'com.android.support:appcompat-v7:23.4.0'
+    //compile 'com.android.support:design:23.4.0'
+    compile 'com.android.support:appcompat-v7:24.2.0'
+    compile 'com.android.support:design:24.2.0'
+    compile 'com.android.volley:volley:1.0.0'
+
+
+    //compile 'com.android.support:support-v4:24.2.0'
+    /*    compile('org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.0.2') {
+                exclude module: 'support-v4'
+            }*/
+        compile('org.eclipse.paho:org.eclipse.paho.android.service:1.0.2') {
+                    exclude module: 'support-v4'
+                }
+    /*    compile('org.eclipse.paho:org.eclipse.paho.android.service:1.0.3-SNAPSHOT') {
+                    exclude module: 'support-v4'
+                }*/
+    //compile 'org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.1.0'
+    //compile 'org.eclipse.paho:org.eclipse.paho.android.service:1.0.2'
+}
+repositories {
+    maven {
+//        url "https://repo.eclipse.org/content/repositories/paho-snapshots/"
+        url "https://repo.eclipse.org/content/repositories/paho-releases/"
+//        url "https://repo.eclipse.org/content/repositories/paho-snapshots/"
+    }
+}

@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">Smart Health</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_info">Info Applicazione</string>
+    <string name="action_test">Testa MQTT</string>
+    <string name="action_resetta">Reimposta Connessione</string>
+    <string name="action_esci">Esci</string>
+    <string name="action_del_ext_msg">Elimina messaggi esterni</string>
+
+    <string name="file_di_salvataggio_preferenze">giupe_laurea_smart_health_shared_prefe</string>
+
+    <string name="server_addr_default">https://giupe.webfactional.com/health</string>
+    <string name="broker_addr_default">tcp://giupe.webfactional.com</string>
+    <string name="mqtt_port_default">22243</string>
+    <string name="server_addr_current">https://giupe.webfactional.com/health</string>
+    <string name="broker_addr_current">tcp://giupe.webfactional.com</string>
+    <string name="mqtt_port_current">22243</string>
+    <string name="broker_username_default">giupe</string>
+    <string name="broker_username_current">giupe</string>
+    <string name="broker_password_default">tesidilaurea</string>
+    <string name="broker_password_current">tesidilaurea</string>
+
+    <string name="connection_settings_title">Impostazioni di Connessione</string>
+    <string name="server_address_title">Indirizzo Server REST</string>
+    <string name="broker_address_title">Indirizzo Broker MQTT</string>
+    <string name="mqtt_port_title">Porta MQTT</string>
+    <string name="tasto_salva_ipostaz_conn">SALVA</string>
+    <string name="broker_username_title">Broker Username</string>
+    <string name="broker_password_title">Broker Password</string>
+
+    <string name="user_username_default">_-_-_</string>
+    <string name="user_password_default">_-_-_</string>
+    <string name="user_username_current">prova_username</string>
+    <string name="user_password_current">prova_password</string>
+
+    <string name="login_logout_title">Effettua il Login, o il Logout</string>
+    <string name="username_title">Username</string>
+    <string name="password_title">Password</string>
+    <string name="tasto_login">LOG IN</string>
+    <string name="tasto_logout">LOG OUT</string>
+
+    <string name="logged_in">not_logged</string>
+
+    <string name="torna_indietro_title">TORNA INDIETRO</string>
+
+    <string name="mem_usrusername">usrusername_salvato</string>
+    <string name="mem_usrpassword">usrpassword_salvato</string>
+    <string name="mem_usrindirizzo">usrindirizzo_salvato</string>
+    <string name="mem_usrnacita">usrnacita_salvato</string>
+    <string name="mem_usrcitta">usrcitta_salvato</string>
+    <string name="mem_usrnome">usrnome_salvato</string>
+    <string name="mem_usrcognome">usrcognome_salvatoo</string>
+    <string name="mem_usrcap">usrcap_salvato</string>
+    <string name="mem_usrtelefono">usrtelefono_salvato</string>
+    <string name="mem_usrnomefull">usrnomefull_salvato_</string>
+    <string name="mem_usrsitewhere_id">usrsitewhere_id_salvato</string>
+    <string name="mem_usrsesso">usrsesso_salvato</string>
+    <string name="mem_usrpatologie">usrpatologie_salvato</string>
+    <string name="mem_usrcodicefiscale">usrcodicefiscale_salvato</string>
+    <string name="mem_usremail">usremail_salvato</string>
+
+    <string name="mem_not_read_notif_json">json_con_le_notif_non_lette_salvate</string>
+    <string name="mem_read_notif_json">json_con_le_notif_lette_salvate</string>
+
+    <string name="info_personali_titolo">Le tue informazioni personali</string>
+    <string name="nome_titolo">Nome</string>
+    <string name="cognome_titolo">Cognome</string>
+    <string name="nascita_titolo">Data di nascita</string>
+    <string name="sesso_titolo">Sesso</string>
+    <string name="cod_fisc_titolo">Codice Fiscale</string>
+    <string name="patologie_titolo">Patologie</string>
+    <string name="username_titolo">Username</string>
+    <string name="password_titolo">Password</string>
+    <string name="telefono_titolo">Telefono</string>
+    <string name="email_titolo">e-mail</string>
+    <string name="citta_titolo">Città</string>
+    <string name="indirizzo_titolo">Indirizzo</string>
+    <string name="cap_titolo">CAP</string>
+
+    <string name="mem_topic_sub_test">topic_test_sub_salvato</string>
+    <string name="mem_topic_pub_test">topic_test_pub_salvato</string>
+
+    <string name="mem_personal_topic">topic_personale_salvato</string>
+
+    <string name="messaggi_fuori_piattaforma_json">msgs_out_platform_saved</string>
+
+    <string-array name="sex_list">
+        <item>Uomo</item>
+        <item>Donna</item>
+    </string-array>
+
+    <string name="json_lista_info">{"info_list":["agenerale","aserve","achi","atelemedicina","aihealth","anotif_msg","aorganizzazione","ainviare","aricevere","adisabilita","atermina","aimpostazioni","abackground","asviluppatore"]}</string>
+    <string name="agenerale">Cos\'è?</string>
+    <string name="agenerale_descrizione">\n\nSmart Health nasce come un\'applicazione all\'interno di un progetto più ampio di Telemedicina.\n\n</string>
+    <string name="aserve">A cosa serve?</string>
+    <string name="aserve_descrizione">\n\nSmart Health permette all\'utente di ricevere notifiche e messaggi istantanei, e di riorganizzarli a proprio piacimento.\n\nSmart Health permette inoltre di inviare messaggi istantanei.\n\n</string>
+    <string name="achi">Chi può usarla?</string>
+    <string name="achi_descrizione">\n\nL\'utente che meglio può fruire di tutte le funzioni, è un Paziente registrato al servizio di Telemedicina.\n\nSmart Health può tuttavia essere utilizzata da tutti, in quanto è possibile inviare e ricevere messaggi senza effettuare il login, e, pertanto, senza avere un account.\n\n</string>
+    <string name="atelemedicina">Servizio di Telemedicina</string>
+    <string name="atelemedicina_descrizione">\n\nPer fruire del servizio di Telemedicina, il paziente dovrà creare un account personale, registrandosi mediante questa stessa App.\n\n</string>
+    <string name="aihealth">Associazione dell\'account iHealth</string>
+    <string name="aihealth_descrizione">\n\nPer sfruttare al meglio il servizio di Telemedicina, è possibile associare il proprio account iHealth.\n\nMediante l\'impiego dei diversi sensori iHealth, sarà possibile monitorare ed analizzare le misure e i dati del paziente, in quasi real-time.\n\n</string>
+    <string name="anotif_msg">Tipi di Notifiche e Messaggi</string>
+    <string name="anotif_msg_descrizione">\n\nSmart Health permette di ricevere tre tipi di Notifiche\n\n<b>Messaggi dai medici</b>\nSono messaggi scambiati e salvati all\'interno della piattaforma. L\'utente può organizzare questi messaggi marcandoli come <i>letti</i> o <i>non letti</i>.\n\n<b>Aggiornamenti</b>\nSono notifiche generate automaticamente dalla piattaforma, e salvate dentro la stessa. Anche in questo caso, l\'utente può organizzarle contrassegnandole come <i>lette</i> e <i>non lette</i>.\n\n<b>Messaggi esterni</b>\nSono messaggi scambiati all\'esterno della piattaforma, che non vengono salvati in nessun posto, se non temporaneamente all\'interno di questa applicazione, finche l\'utente non deciderà di eliminarli.\n\n</string>
+    <string name="aorganizzazione">Organizzazione delle Notifiche</string>
+    <string name="aorganizzazione_descrizione">\n\nTutte le nuove notifiche vengono visualizzate nella schermata principale dell\'applicazione.\n\nPer contrassegnare una notifica come <i>letta</i>, sarà sufficiente toccarla e in automatico la notifica non sarà più visualizzata.\n\nSe le notifica che è stata toccata era un <i>Messaggio esterno alla piattafomra</i>, questa sarà eliminata definitivamente\n\nSe invece viene toccata una qualsiasi altra notifica, sarà possibile visualizzarla nuovamente nella sezione <i>Notifiche lette</i> dell\'applicazione; da questa sezione sarà possibile contrassegnare nuovamente come <i>non letta</i> una notifica, toccandola.\n\n</string>
+    <string name="ainviare">Inviare Messaggi esterni</string>
+    <string name="ainviare_descrizione">\n\nSmart Health permette di inviare messaggi esterni alla piattaforma.\n\nPer testare questi messaggi, torna indietro, e dal menu in alto a destra, scegli la voce <i>Testa MQTT</i>.\n\nDunque imposta un Topic a tua scelta su cui pubblicare messaggi, scrivi il messaggio, e premi <i>INVIA</i>.\n\n</string>
+    <string name="aricevere">Ricevere Messaggi esterni</string>
+    <string name="aricevere_descrizione">\n\nSmart Health permette di ricevere messaggi esterni alla piattaforma.\n\nPer provarlo, torna indietro, e dal menu in alto a destra, scegli la voce <i>Testa MQTT</i>.\n\nSottoscrivi un Topic a tua scelta, e dopo aver premuto <i>SALVA</i>, riceverai tutti i messaggi pubblicati sul Topic da te sottoscritto, che sono stati inviati da altri clients connessi allo stesso Broker.\n\nPer annullare la sottoscrizione al Topic attuale, e sottoscrivere un Topic diverso, ti basterà cancellare il Topic che avevi inserito, digitare quello nuovo, e premere <i>SALVA</i>.\n\nPer annullare la sottoscrizione, cancella il topic, e premi <i>SALVA</i> senza digitare nient\'altro.\n\n</string>
+    <string name="adisabilita">Disabilitare la ricezione di Notifiche</string>
+    <string name="adisabilita_descrizione">\n\nPer non ricevere nuovi messaggi occorre accertarsi che non si sia atualmente loggati e connessi con il proprio account, e che selezionando la voce <i>Testa MQTT</i> del menu in alto a destra, non sia impostato alcun Topic da sottoscrivere.\n\n</string>
+    <string name="atermina">Terminare l\'applicazione</string>
+    <string name="atermina_descrizione">\n\nUscendo normalmente dall\'applicazione, eventuali sottoscrizioni ai Topic verranno mantenute attive, e nel caso di nuovi messaggi o aggiornamenti, una notifica del sistema Android avviserà l\'utente.\n\nSe si vuole terminare l\'applicazione, e tutti i suoi servizi, disattivando dunque la ricezione di nuovi messaggi e notifiche, occorre selezionare la voce <i>Esci</i> dal menu in alto a destra della schermata principale.\n\n</string>
+    <string name="aimpostazioni">Impostazioni di connessione</string>
+    <string name="aimpostazioni_descrizione">\n\nL\'applicazione è preimpostata per connettersi al Server e al Broker utilizzati dalla piattaforma di Telemedicina.\n\nTuttavia è possibile cambiare queste impostazioni, ad esempio per connttersi ad un Broker diverso.\n\nPer resettare le impostazioni di connessione al loro valore di default, seleziona la voce <i>Reimposta Connessione</i> dal menu in alto a destra della schermata principale.\n\n</string>
+    <string name="abackground">Servizi Android in background</string>
+    <string name="abackground_descrizione">\n\nL\'applicazione utilizza un Servizio in Background, il quale gestisce un client MQTT.\n\nTale servizio, a sua volta, utilizza il servizio <i>MqttService</i> che implementa la libreria JAVA Android per clients MQTT <i>Paho</i>, sviluppata dalla community open source <i>Eclipse</i>.\n\nQuando non si è loggati e connessi al servizio di Telemedicina, e, quando non si è sottoscritto alcun Topic, il servizio Android <i>MqttService</i> non è attivo.\n\n</string>
+    <string name="asviluppatore">Sviluppatore</string>
+    <string name="asviluppatore_descrizione">\n\n<b>Giuseppe Petralia</b>\n\npetraliagiuseppe88@gmail.com\n\nTorino\nNovembre 2016</string>
+</resources>
+

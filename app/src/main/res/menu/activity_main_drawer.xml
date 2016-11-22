@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login_logout"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Log In / Log Out" />
+        <item
+            android:id="@+id/nav_register"
+            android:icon="@drawable/ic_person_add_black_24dp"
+            android:title="Registrati" />
+        <item
+            android:id="@+id/nav_old_notif"
+            android:icon="@drawable/ic_drafts_black_24dp"
+            android:title="Notifiche Lette" />
+        <item
+            android:id="@+id/nav_user_settings"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="Dati Personali" />
+    </group>
+
+    <item android:title="Associa altri account">
+        <menu>
+            <item
+                android:id="@+id/nav_ihealth_account"
+                android:icon="@drawable/ic_menu_share"
+                android:title="iHealth" />
+        </menu>
+    </item>
+
+    <item android:title="Impostazioni">
+        <menu>
+            <item
+                android:id="@+id/nav_connection_settings"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="Connessione" />
+        </menu>
+    </item>
+
+</menu>
