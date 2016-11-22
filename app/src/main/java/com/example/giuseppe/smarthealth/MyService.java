@@ -98,8 +98,8 @@ public class MyService extends Service {
 
     //////////////////
     class MyThread extends Thread{
-        static final long DELAY = 3000;//300000;
-        static final long DELAYB = 3000;//60000;
+        static final long DELAY = 120000;
+        static final long DELAYB = 60000;
         @Override
         public void run(){
             while(isRunning){
